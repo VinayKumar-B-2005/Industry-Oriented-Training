@@ -43,14 +43,15 @@ public class EmployeeManagement {
 
     // Method to create employee record
     void create() {
-        sc.nextLine(); // clear buffer
+        sc.nextLine();
         System.out.print("Enter the name: ");
         name = sc.nextLine();
 
+        sc.nextInt();
         System.out.print("Enter the age: ");
         age = sc.nextInt();
 
-        sc.nextLine(); // clear buffer
+        sc.nextLine();
         System.out.print("Enter the designation (P - Programmer, T - Tester, M - Manager): ");
         String code = sc.nextLine().trim().toUpperCase();
 
@@ -67,7 +68,7 @@ public class EmployeeManagement {
             default:
                 designation = "Not Specified";
         }
-
+        sc.nextDouble();
         System.out.print("Enter the salary: ");
         salary = sc.nextDouble();
 
