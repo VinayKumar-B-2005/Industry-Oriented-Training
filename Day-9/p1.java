@@ -1,7 +1,6 @@
 package day_9;
 
 class p1 {
-
     static class Node {
 
         int data;
