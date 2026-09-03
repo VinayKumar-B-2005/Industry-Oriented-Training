@@ -3,6 +3,7 @@ package day_12;
 import java.util.*;
 
 public class p1 {
+	
 	static boolean isBipartite(int[][] graph) {
 		int n=graph.length;
 		int[] color=new int[n];
